@@ -234,3 +234,54 @@ section {
     margin-top: 50px;
     text-align: center;
 }
+
+/* Contact area style */
+.contact-area {
+    background: #FFF8F3;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0;
+    border-radius: 5px;
+}
+.connect-me {
+    width: 45%;
+}
+.contact-title {
+    color: #181818;
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+.contact-des {
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.social-media {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+.message-me {
+    width: 45%;
+}
+.contact-form {
+    width: 100%;
+}
+.contact-form .input, .contact-form textarea {
+    display: block;
+    width: 90%;
+    color: #757575;
+    background: #FFFFFF;
+    border-radius: 5px;
+    height: 44px;
+    padding: 10px 5%;
+    border: 0;
+    margin-bottom: 24px;
+}
+.contact-form textarea {
+    height: 180px;
+}
+.contact-form input[type="submit"] {
+    border: 0;
+}
