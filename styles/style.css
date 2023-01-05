@@ -242,6 +242,7 @@ section {
     justify-content: space-around;
     padding: 100px 0;
     border-radius: 5px;
+    margin-bottom: 70px;
 }
 .connect-me {
     width: 45%;
@@ -284,4 +285,30 @@ section {
 }
 .contact-form input[type="submit"] {
     border: 0;
+}
+.footer {
+    background: #141414;
+    padding: 30px 0;
+}
+.inner-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.copyright p {
+    color: #fd6f0a9e;
+}
+.important-link ul {
+    list-style: none;
+    display: flex;
+}
+.important-link ul li {
+    margin-left: 20px;
+}
+.important-link ul li a {
+    color: #fd6f0a9e;
+    text-decoration: none;
+}
+.important-link ul li a:hover {
+    transition: 0.5s;
+    color: #fd6f0ad4;
 }
