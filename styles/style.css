@@ -186,3 +186,51 @@ section {
     font-size: 16px;
     line-height: 28px;
 }
+
+/* Resume Style */
+.resume .section-title {
+    margin-bottom: 100px;
+}
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+.resume-title {
+    color: #474747;
+    font-size: 30px;
+    line-height: 41px;
+    margin-bottom: 30px;
+}
+.resume-item {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #D1D1D1;
+    margin-bottom: 30px;
+}
+.resume-item:last-child {
+    border: none;
+    margin-bottom: 0;
+}
+
+.item-title {
+    color: #474747;
+    font-size: 25px;
+    line-height: 34px;
+    margin-bottom: 10px;
+}
+.item-ind {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+.item-des {
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+    width: 90%;
+}
+.resume-download{
+    margin-top: 50px;
+    text-align: center;
+}
