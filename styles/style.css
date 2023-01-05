@@ -87,7 +87,6 @@ section {
 .banner {
     display: flex;
     gap: 160px;
-    align-items: center;
     margin-top: 130px;
 }
 .banner-text h2 {
@@ -118,6 +117,9 @@ section {
     background: #FFF8F3;
     border: 1px solid #FD6E0A;
     border-radius: 4px;
+}
+.btn-cont i.fa-phone-flip {
+    transform: rotate(-260deg);
 }
 .banner-image img {
     display: block;
