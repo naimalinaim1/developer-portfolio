@@ -314,3 +314,156 @@ section {
     transition: 0.5s;
     color: #fd6f0ad4;
 }
+
+
+@media screen and (max-width: 576px) {
+    * {
+        box-sizing: border-box;
+    }
+    /* header */
+    .header {
+        width: 100%;
+        background-image: none;
+    }
+    .inner-header {
+        margin: 0;
+    }
+    .top-nav {
+        flex-direction: column;
+    }
+    .top-nav h2 {
+        text-align: center;
+        margin: 0px 0 30px;
+    }
+    .nav-menu {
+        flex-direction: column;
+    }
+    .nav-menu li {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #ddd;
+    }
+    .nav-menu li:last-child {
+        border: 0;
+    }
+    .banner {
+        flex-direction: column;
+        gap: 0;
+        margin: 0;
+    }
+    .banner-text h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .banner-text h1 {
+        font-size: 45px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .banner-text p {
+        text-align: justify;
+    }
+    .banner-btn {
+        text-align: center;
+    }
+    .banner-btn a {
+        margin-right: 0;
+    }
+    .banner-btn a {
+        margin-bottom: 20px;
+    }
+    .banner-image img {
+        width: 80%;
+    }
+    /* section */
+    section {
+        margin-top: 70px;
+    }
+    .main-container {
+        margin: 0;
+    }
+    .resume .section-title {
+        margin-bottom: 40px;
+    }
+    /* Skills Area Style */
+    .skill-container .section-des {
+        width: 96%;
+        margin: 0 auto;
+    }
+    .skills {
+        flex-direction: column;
+    }
+    .skill-item {
+        padding: 10px;
+    }
+    .skill-item img {
+        margin-bottom: 15px;
+    }
+    .skill-title {
+        margin-bottom: 10px;
+    }
+
+    /* Resume Style */
+    .resume-container {
+        flex-direction: column;
+        gap: 0;
+    }
+    .resume-title {
+        text-align: center;
+    }
+    /* Contact area style */
+    .contact-area {
+        flex-direction: column;
+    }
+    .connect-me, .message-me {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .social-media {
+        justify-content: center;
+    }
+    
+    .contact-form {
+        width: 98%;
+    }
+
+    /*about area*/
+    .about-area {
+        padding: 20px 5px;
+    }
+    .my-info {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .info-item {
+        margin-bottom: 15px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 3px;
+    }
+    /* footer */
+    .inner-footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .copyright {
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 18px;
+        padding-bottom: 5px;
+    }
+    .copyright p{
+        text-align: center;
+    }
+    .important-link ul {
+        flex-direction: column;
+        padding: 0;
+    }
+    .important-link ul li{
+        text-align: center;
+        padding: 7px 0;
+    }
+}
